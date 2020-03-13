@@ -18,7 +18,7 @@ I put into Html, Css, Js files that could imply hacking.<br/>
 ## Usage
 The server and the algorithm of searching was written in Python and Beautiful Soup Library and, the GUI written in HTML, CSS , Javascript.<br/>
 after python done to calculate he pass the data for the JSON file and javascript read the data from a JSON file and display the data on our site.<br/>
-the connection between backend and fronted create by 'eel' library.
+the connection between backend(python) and fronted(js) create by 'eel' library.
 
 ## License
 [SCE Collage](https://www.sce.ac.il/)
