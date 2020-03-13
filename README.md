@@ -1,7 +1,7 @@
 # Data Mining Security Hacking Poject
 
-The project focuses on data mining for in-depth search, the user chooses a link(URL) to a particular site that he wants to check.<br/>
-The system will take the link(URL) it received and look for all of its html, css, js files.<br/>
+The project focuses on data mining for in-depth search, the user chooses a link (URL) to a particular site that he wants to check.<br/>
+The system will take the link (URL) it received and look for all of its html, css, js files.<br/>
 and search for any comments in any of the files, if there is any comment that suggests the possibility of hacking (such as: password, user, ID, etc.)<br/>
 The system can search in depth on the same link it received, the default is a search on the current site, but it is possible to search for other sites that are on the same site we received (as the amount of depth we want, of course, the more time complexity the system runs, the more depth it wants).<br/>
 Finally, the system will bring us all comments that suggest the possibility of hacking including the link from which the comment came.<br/>
