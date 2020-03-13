@@ -1,0 +1,96 @@
+body {
+    background: url("./backgroundMain.jpg");
+    background-position:center;
+    font-family: 'Lato';
+}
+
+#jumbo {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 3rem 1rem;
+    margin-bottom:-2px;
+    color:white;
+    border: 2px solid rgb(202, 71, 71,0.7);
+}
+#notLink{
+    color:white;
+    padding-top:15px;
+}
+html {
+    height: 100%
+}
+
+.content {
+    text-align: center;
+    padding-top: 10%;
+}
+
+#h1Class{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(141, 42, 42, 0), rgba(245, 248, 246, 0.75), rgba(141, 42, 42, 0));
+}
+
+.newDisplay {
+    color: white;
+    font-size: medium;
+    border: 50px;
+}
+
+.paddH1 {
+    margin-bottom: 150px;
+}
+
+.loader {
+    border: 25px solid rgba(0,  0, 0, 0.8);
+    /* Light grey */
+    border-top: 25px solid rgb(50, 50, 50, 0.8);
+    border-right: 25px solid rgb(0, 0, 0, 0.8);
+    border-bottom: 25px solid rgb(0, 0, 0, 0.8);
+    /* Maroon */
+    margin-left: 45%;
+    margin-top: 60px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+#wrapper {
+    display: none;
+    width: 100%;
+    justify-content: center;
+    color: white;
+
+}
+
+
+#wrapper div {
+    margin-top:20px;
+    margin-left: 150px;
+    width: 50%;
+    text-align: left;
+
+}
+
+.first {
+    border-bottom: 1px solid white;
+    font-size: medium;
+    width: 300px;
+    padding: 3px;
+    font-weight:bold;
+}
